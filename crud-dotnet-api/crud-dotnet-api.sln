@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "crud-dotnet-api", "crud-dotnet-api\crud-dotnet-api.csproj", "{84EC5B44-89C3-4C01-A94C-DC588A9B5827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84EC5B44-89C3-4C01-A94C-DC588A9B5827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EC5B44-89C3-4C01-A94C-DC588A9B5827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EC5B44-89C3-4C01-A94C-DC588A9B5827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EC5B44-89C3-4C01-A94C-DC588A9B5827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A576C085-6B3A-4EB8-A19C-7523D8352A47}
+	EndGlobalSection
+EndGlobal
