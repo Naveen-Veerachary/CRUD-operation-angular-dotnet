@@ -2,7 +2,7 @@
 {
    <div class="mat-elevation-z8 w-full">
     <div class="flex justify-end p-8">
-      <button (click)="create()" mat-raised-button color="primary" >Add Employee</button>
+      <button routerLink="create-employee" mat-raised-button color="primary" >Add Employee</button>
     </div>
     <table mat-table [dataSource]="employeeList">
       <!-- Name Column -->
