@@ -52,12 +52,12 @@ save(){
   if(this.isEdit){
     this.httpService.updateEmployee(this.employeeId,employee).subscribe(()=>{
       console.log("Success");
-      this.router.navigateByUrl("");
+      this.router.navigateByUrl("employee-list");
     });
   }else{
     this.httpService.createEmployee(employee).subscribe(()=>{
       console.log("Success");
-      this.router.navigateByUrl("");
+      this.router.navigateByUrl("employee-list");
     });
   }
     

@@ -33,6 +33,11 @@ getEmployeeFromServer(){
     console.log(this.employeeList);
 })
 }
+
+create(){
+  this.router.navigateByUrl("/create-employee");
+}
+
 edit(id:number){
   console.log(id);
   this.router.navigateByUrl("employee/"+id)
