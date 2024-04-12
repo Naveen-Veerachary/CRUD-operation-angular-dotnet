@@ -59,8 +59,6 @@ save(){
       console.log("Success");
       this.router.navigateByUrl("");
     });
-  }
-    
-  
+  } 
 }
 }
