@@ -22,7 +22,7 @@ namespace crud_dotnet_api.Data
             await _appDbContext.SaveChangesAsync();
         }
 
-        public async Task<List<Employee>> GetEmployeeListAsync()
+        public async Task<IEnumerable<Employee>> GetEmployeeListAsync()
         {
            return await _appDbContext.Employees.ToListAsync();
         }
@@ -57,6 +57,11 @@ namespace crud_dotnet_api.Data
             }
             _appDbContext.Employees.Remove(employee);
             await _appDbContext.SaveChangesAsync();
+        }
+
+        public async Task<Employee> GetEmployeeByEmail(string email)
+        {
+            return await _appDbContext.Employees.Where(x=>x.Email == email).FirstOrDefaultAsync();
         }
     }
 }
