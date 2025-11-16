@@ -12,6 +12,6 @@ namespace crud_dotnet_api.Data
         /// <summary>
         /// Set the Employee Table in AppDbConext.
         /// </summary>
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Employee> Employees { get; set; } = null!;
     }
 }
